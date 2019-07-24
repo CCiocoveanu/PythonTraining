@@ -1,0 +1,6 @@
+.idea
+test
+
+_pycache_\*
+
+*.iml
