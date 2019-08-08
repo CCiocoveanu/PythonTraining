@@ -1,0 +1,1 @@
+2019-08-06 09:49:34.898229 level = INFO: Good message gets logged

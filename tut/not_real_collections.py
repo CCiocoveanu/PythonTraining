@@ -45,8 +45,16 @@ def range_ex():  # range =  arithmetic progression of integers
         print("i = {}, v = {}".format(i, v))
 
 
+def list_ex():
+    list_i = "This is a good string list with some elements".split()
+    list_i.extend(["and", "extend", "it"])
+    list_i.sort(key=len)
+    return list_i
+
+
 if __name__ == '__main__':
-    print(minmax([1, 2, 3, 4, 6, 8, 30, 1, 0, -39]))
-    range_ex()
+    # print(minmax([1, 2, 3, 4, 6, 8, 30, 1, 0, -39]))
+    # range_ex()
+    print(list_ex())
 
 
